@@ -1,18 +1,19 @@
-#include <stdio.h>
+//store name,age and phone number and show them in terminal
+
+#include<stdio.h>
 int main()
 {
-    int age , phone ;
-    char name[50];
-    printf("enter name >> ");
-    scanf("%s",&name);
-    printf("enter age>>");
-    scanf("%d",&age);
-    printf("enter phone number>> ");
-    scanf("%d",&phone);
-    
-    printf("%s\n",name);
-    printf("%d\n",age);
-    printf("%d\n",phone);
-    
-    return 0;
+	char name[20];int phone,age;
+	printf("enter name> ");
+	gets(name); 
+	printf("enter age> ");
+	scanf("%d",&age);
+	printf("enter phone number> ");
+	scanf("%d",&phone);
+	
+	printf("name : %s \n",name);
+	printf("age : %d \n",age);
+	printf("phone number : %d \n",phone);
+	
+	
 }
