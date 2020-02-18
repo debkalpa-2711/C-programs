@@ -1,0 +1,12 @@
+//convert temp. from celcious to ferhenheight
+
+#include<stdio.h>
+int main()
+{
+	int cel,fer;
+	printf("enter the temp in celcious> ");
+	scanf("%d",&cel);
+	fer = (cel*1.8)+32;
+	printf("the temp in ferhenheight is : %d",fer);
+	return 0;
+}
