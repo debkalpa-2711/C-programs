@@ -1,0 +1,20 @@
+//convert temp. from celcious to ferhenheight
+
+#include<stdio.h>
+int main()
+{
+	float math,phy,chem,sum,avg;
+	printf("enter marks of maths> ");
+	scanf("%f",&math);
+	printf("enter marks of physics> ");
+	scanf("%f",&phy);
+	printf("enter marks of chemistry> ");
+	scanf("%f",&chem);
+	
+	sum = math+phy+chem;
+	avg = sum/3;
+	
+	printf("you got> %.2f /300 \n",sum);
+	printf("your average marks is> %.2f \n",avg);
+	return 0;
+}
